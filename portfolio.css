@@ -1,0 +1,111 @@
+  @import url(https://fonts.googleapis.com/css?family=Roboto);
+  @import url(https://fonts.googleapis.com/css?family=Oswald);
+  .jumbotron {
+    background-color: transparent !important;
+  }
+  
+  body {
+    padding-top: 50px;
+  }
+  
+  .about {
+    height: 675px;
+    background-image: url("http://www.contamination-horror.co.uk/codepen/graphic-paper-background.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 50px;
+    color: #000000;
+  }
+  
+  #about {
+    margin-top: -50px;
+  }
+  
+  .portfolio {
+    height: auto;
+    background-image: url("http://www.contamination-horror.co.uk/codepen/laptop-keyboard.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  #portfolio {
+    margin-top: -50px;
+    padding: 50px;
+  }
+  
+  #portfolio h2 {
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  #portfolio h3 {
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  #portfolio p {
+    margin: 10px 10px;
+    padding: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+  }
+  
+  .contact {
+    height: 675px;
+    background-image: url("http://www.contamination-horror.co.uk/codepen/nero_plaster2.jpg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  #contact {
+    padding: 50px;
+  }
+  
+  #contact h2 {
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+  }
+  
+  .circular {
+    border: solid 2px #B8B8E6;
+    border-radius: 50%;
+  }
+  
+  .bottom {
+    margin: 50px;
+  }
+  /* Small Devices, Tablets */
+  
+  @media (max-width: 1024px) {
+    .about {
+      position: relative;
+      margin-top: 130px;
+      height: auto;
+      /*background: linear-gradient(#648880, #293f50);*/
+      padding: 5px;
+      font-size: 10px;
+    }
+    .portfolio {
+      position: relative;
+      top: 25px;
+      height: auto;
+      background-color: gray;
+      padding: 5px;
+      font-size: 10px;
+    }
+    .contact {
+      height: auto;
+      text-align: center;
+    }
+    .contact div {
+      padding: 5px;
+    }
